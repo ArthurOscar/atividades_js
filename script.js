@@ -28,6 +28,9 @@ let numero2 = parseFloat(prompt("Digite o segundo número"))
 matematicaBasica(numero, numero2)
 
 //atividade 3
-for(let i = 10; i > 0; i--){
-    setTimeout(console.log(i), 1000);
+let i = 10;
+let delay = 0;
+while (numero >= 1){
+    console.log(i);
+    i--;
 }
