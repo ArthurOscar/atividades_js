@@ -84,3 +84,12 @@ let n1 = parseFloat(prompt("Digite o primeiro número"))
 let n2 = parseFloat(prompt("Digite o segundo número"))
 let n3 = parseFloat(prompt("Digite o terceiro número"))
 media(n1, n2, n3)
+
+//atividade 9
+for (let i = 1; i <= 20; i++){
+    if (i % 3 === 0) {
+        console.log(i + ", é um multiplo de 3")
+    } else {
+        console.log(i + ", não é um múltiplo de 3")
+    }
+}
