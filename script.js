@@ -50,3 +50,15 @@ function contarCaracteres(palavra){
 }
 
 contarCaracteres("medicamento")
+
+//atividade 6
+let carro = {
+    marca: "",
+    modelo: "",
+    ano: 0
+}
+carro.marca = prompt("Digita a marca do carro")
+carro.modelo = prompt("Digita a modelo do carro")
+carro.ano = prompt("Digita a ano do carro")
+
+console.log(carro.modelo)
