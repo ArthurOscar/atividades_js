@@ -13,7 +13,7 @@ verificarPar(numeroUsuario)
 //atividade 2
 function matematicaBasica(numero, numero2){
     const soma = numero + numero2;
-    const subtracao = numero + numero2;
+    const subtracao = numero - numero2;
     const divisao = numero2 !== 0 ? numero / numero2: "Não pode ser dividido";
     const multiplicacao = numero * numero2;
     console.log(soma)
@@ -30,7 +30,15 @@ matematicaBasica(numero, numero2)
 //atividade 3
 let i = 10;
 let delay = 0;
-while (numero >= 1){
+while (i >= 1){
     console.log(i);
     i--;
 }
+
+//atividade 4
+function inverterTexto(conteudo){
+    const inverter = conteudo.split("").reverse().join("");
+    console.log(inverter);
+}
+
+inverterTexto("hello")
