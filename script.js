@@ -77,7 +77,7 @@ mensagemPersonalizada(mensagemNome)
 //Atividade 8
 function media(n1, n2, n3){
     let mediaAritimetica = (n1+n2+n3)/3;
-    console.log(mediaAritimetica)
+    console.log(mediaAritimetica + " é a média aritmetica")
 }
 
 let n1 = parseFloat(prompt("Digite o primeiro número"))
@@ -93,3 +93,17 @@ for (let i = 1; i <= 20; i++){
         console.log(i + ", não é um múltiplo de 3")
     }
 }
+
+//atividade 10
+let palindromo = ""
+function verificarPalindromo(palindromo){
+    let inverter = palindromo.split("").reverse().join("");
+    if ((palindromo.toLowerCase()) == (inverter.toLowerCase())){
+        console.log(palindromo + " é uma palavra palíndroma")
+    } else{
+        console.log(palindromo + " não é uma palavra palíndroma")
+    }
+}
+
+palindromo = prompt("Digite uma palavra")
+verificarPalindromo(palindromo)
