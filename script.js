@@ -62,3 +62,14 @@ carro.modelo = prompt("Digita a modelo do carro")
 carro.ano = prompt("Digita a ano do carro")
 
 console.log(carro.modelo)
+
+//atividade 7
+function mensagemPersonalizada(mensagem){
+    const mensagemPadrao = "Olá";
+    let mensagemNome = mensagem;
+    console.log(mensagemPadrao);
+    console.log(mensagemNome);
+}
+
+mensagemNome = prompt("Digite seu nome")
+mensagemPersonalizada(mensagemNome)
