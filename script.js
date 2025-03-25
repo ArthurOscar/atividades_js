@@ -42,3 +42,11 @@ function inverterTexto(conteudo){
 }
 
 inverterTexto("hello")
+
+//atividade 5
+function contarCaracteres(palavra){
+    const contar = palavra.length;
+    console.log(contar)
+}
+
+contarCaracteres("medicamento")
